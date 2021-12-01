@@ -20,7 +20,7 @@ const Projects = () => {
 
 
 
-        <div>
+        <div >
             <h1 className="text-center pt-4">All My Cuty Projects.....</h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4  mb-4 mt-4 ">

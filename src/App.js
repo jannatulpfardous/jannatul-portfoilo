@@ -6,7 +6,7 @@ import {
   Route,
 }
   from "react-router-dom";
-import Carousel from './Components/Carousel/Carousel';
+
 
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
@@ -37,14 +37,19 @@ const App = () => {
     <div>
       <Router>
 
-        <div>
-          <Navbar></Navbar>
+      
+        {/* <Route exact path="/header">
+            </Route> */}
+            <Navbar></Navbar>
+
+          
+
 
 
           <Switch>
 
             <Route exact path="/">
-              <Carousel></Carousel>
+            <Header></Header>
 
             </Route>
 
@@ -71,15 +76,14 @@ const App = () => {
               <Contact></Contact>
 
             </Route>
-            <Route exact path="/header">
-              <Header></Header>
+            <Route exact path="/portfoilo">
+              <Portfoilo></Portfoilo>
+
             </Route>
+           
 
 
-            <private exact path="/portfoilo">
-             <Portfoilo></Portfoilo>
-            </private>
-
+           
 
 
 
@@ -92,7 +96,7 @@ const App = () => {
 
           <Footer></Footer>
 
-        </div>
+       
 
       </Router>
     </div>

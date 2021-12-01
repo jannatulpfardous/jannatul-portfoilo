@@ -6,6 +6,7 @@ import '../Carousel/Carousel.css'
 import { Link } from 'react-router-dom';
 // import { FaArtstation } from "react-icons/fa"
 
+import { MdAccountBalance } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -20,7 +21,7 @@ const Navbar = () => {
             {/* <FaArtstation /> */}
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
                 <div class="container-fluid">
-                    <h3> <span style={{ fontFamily: "Besley", color: "white" }}> Jannatul Fardous</span> </h3>
+                    <h3> <span style={{ fontFamily: "Besley", color: "white" }}><MdAccountBalance style={{color:"red"}}/>  Jannatul Fardous</span> </h3>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
